@@ -38,7 +38,7 @@ const touristPlaces = [
 function App() {
   return (
     <>
-      <div className="flex gap-2 mt-12 justify-center">
+      <div className="flex flex-wrap gap-2 mt-12 justify-center">
         {touristPlaces.map((place) => (
           <Card
             img={place.img}
